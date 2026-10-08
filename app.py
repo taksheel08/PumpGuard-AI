@@ -66,7 +66,7 @@ html, body, [class*="css"] {
     background:
         radial-gradient(circle at 85% 5%, rgba(0, 180, 255, 0.10), transparent 24%),
         radial-gradient(circle at 15% 95%, rgba(0, 255, 200, 0.05), transparent 22%),
-        #070b11;
+        #050805;
     color: #e8f0f7;
 }
 
@@ -86,7 +86,7 @@ h1 {
 }
 
 [data-testid="stSidebar"] {
-    background: linear-gradient(180deg, #0a1018 0%, #070b11 100%);
+    background: linear-gradient(180deg, #071007 0%, #050805 100%);
     border-right: 1px solid rgba(0, 210, 255, 0.18);
 }
 
@@ -95,30 +95,30 @@ h1 {
 }
 
 [data-testid="stMetric"] {
-    background: linear-gradient(145deg, #0e1621, #0a1119);
+    background: linear-gradient(145deg, #0d160d, #080e08);
     border: 1px solid rgba(0, 210, 255, 0.18);
     border-radius: 14px;
     padding: 12px 14px;
 }
 
 [data-testid="stMetricLabel"] {
-    color: #8fa7b9 !important;
+    color: #81947a !important;
 }
 
 [data-testid="stMetricValue"] {
-    color: #eaf7ff !important;
+    color: #efffea !important;
 }
 
 .stButton > button {
     border-radius: 9px;
     border: 1px solid rgba(0, 210, 255, 0.35);
-    background: linear-gradient(90deg, #0d2633, #0b1721);
-    color: #dff8ff;
+    background: linear-gradient(90deg, #0d2633, #0a160b);
+    color: #eaffdf;
     font-weight: 600;
 }
 
 .stButton > button:hover {
-    border-color: #00d8ff;
+    border-color: #39ff14;
     color: white;
     box-shadow: 0 0 18px rgba(0, 216, 255, 0.15);
 }
@@ -130,7 +130,7 @@ h1 {
 }
 
 .panel {
-    background: linear-gradient(145deg, rgba(15,24,35,.97), rgba(8,14,22,.97));
+    background: linear-gradient(145deg, rgba(22,32,20,.98), rgba(5,10,5,.98));
     border: 1px solid rgba(0, 210, 255, 0.16);
     border-radius: 16px;
     padding: 18px;
@@ -140,7 +140,7 @@ h1 {
 
 .panel-title {
     font-family: 'Orbitron', sans-serif;
-    color: #d9f7ff;
+    color: #e8ffe0;
     font-size: 15px;
     font-weight: 600;
     letter-spacing: 1px;
@@ -149,7 +149,7 @@ h1 {
 
 .topbar {
     border: 1px solid rgba(0, 210, 255, 0.20);
-    background: linear-gradient(90deg, rgba(9,18,28,.96), rgba(10,23,32,.90));
+    background: linear-gradient(90deg, rgba(12,22,10,.98), rgba(8,17,7,.94));
     border-radius: 16px;
     padding: 16px 20px;
     margin-bottom: 18px;
@@ -159,12 +159,12 @@ h1 {
     font-family: 'Orbitron', sans-serif;
     font-size: 28px;
     font-weight: 700;
-    color: #effcff;
+    color: #efffea;
     letter-spacing: 1px;
 }
 
 .subtitle {
-    color: #8199aa;
+    color: #71866d;
     font-size: 12px;
     letter-spacing: 1.1px;
     text-transform: uppercase;
@@ -175,14 +175,14 @@ h1 {
     width: 9px;
     height: 9px;
     border-radius: 50%;
-    background: #00e5a8;
-    box-shadow: 0 0 12px #00e5a8;
+    background: #6cff2e;
+    box-shadow: 0 0 12px #6cff2e;
     margin-right: 7px;
 }
 
 .status-dot.off {
-    background: #ffb020;
-    box-shadow: 0 0 10px #ffb020;
+    background: #b7ff4a;
+    box-shadow: 0 0 10px #b7ff4a;
 }
 
 .core-row {
@@ -195,8 +195,8 @@ h1 {
 
 .core-row:last-child { border-bottom: none; }
 
-.core-name { color: #8098aa; }
-.core-state { color: #00e5a8; font-weight: 600; }
+.core-name { color: #73856d; }
+.core-state { color: #6cff2e; font-weight: 600; }
 
 .health-ring {
     width: 170px;
@@ -206,7 +206,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: conic-gradient(#00d8ff 0deg, #00d8ff var(--scoredeg), #152432 var(--scoredeg), #152432 360deg);
+    background: conic-gradient(#39ff14 0deg, #39ff14 var(--scoredeg), #18261a var(--scoredeg), #18261a 360deg);
     box-shadow: 0 0 28px rgba(0,216,255,.10);
 }
 
@@ -224,11 +224,11 @@ h1 {
 .health-value {
     font-family: 'Orbitron', sans-serif;
     font-size: 32px;
-    color: #f0fbff;
+    color: #efffe8;
 }
 
 .health-label {
-    color: #7992a5;
+    color: #70816a;
     font-size: 11px;
     letter-spacing: 1px;
 }
@@ -243,17 +243,17 @@ h1 {
 .fault-name {
     font-family: 'Orbitron', sans-serif;
     font-size: 24px;
-    color: #ffd27a;
+    color: #b8ff70;
     margin: 6px 0;
 }
 
 .confidence {
-    color: #9bb1c1;
+    color: #9aad94;
     font-size: 12px;
 }
 
 .sensor-card {
-    background: #0a131d;
+    background: #0a120a;
     border: 1px solid rgba(0, 210, 255, .12);
     border-radius: 12px;
     padding: 13px;
@@ -261,7 +261,7 @@ h1 {
 }
 
 .sensor-name {
-    color: #718b9e;
+    color: #6f8169;
     font-size: 10px;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -270,17 +270,17 @@ h1 {
 .sensor-value {
     font-family: 'Orbitron', sans-serif;
     font-size: 21px;
-    color: #e9faff;
+    color: #e9ffe1;
     margin-top: 5px;
 }
 
 .sensor-unit {
-    color: #6e899b;
+    color: #6c8066;
     font-size: 10px;
 }
 
 .digital-twin {
-    background: linear-gradient(145deg, #09131c, #071018);
+    background: linear-gradient(145deg, #081008, #050905);
     border: 1px solid rgba(0, 210, 255, .18);
     border-radius: 16px;
     padding: 8px;
@@ -288,7 +288,7 @@ h1 {
 }
 
 .twin-caption {
-    color: #7892a4;
+    color: #6c8067;
     font-size: 10px;
     text-transform: uppercase;
     letter-spacing: 1.2px;
@@ -299,7 +299,7 @@ h1 {
     display: inline-block;
     border: 1px solid rgba(0, 229, 168, .3);
     background: rgba(0,229,168,.06);
-    color: #00e5a8;
+    color: #6cff2e;
     padding: 4px 8px;
     border-radius: 999px;
     font-size: 10px;
@@ -307,16 +307,16 @@ h1 {
 }
 
 .small-note {
-    color: #728b9e;
+    color: #687864;
     font-size: 11px;
 }
 
 .ai-box {
-    border-left: 3px solid #00d8ff;
+    border-left: 3px solid #39ff14;
     background: rgba(0,216,255,.045);
     padding: 12px 14px;
     border-radius: 0 10px 10px 0;
-    color: #cfe9f2;
+    color: #d9ead0;
 }
 
 div[data-testid="stDataFrame"] {
@@ -325,6 +325,25 @@ div[data-testid="stDataFrame"] {
 }
 
 footer {visibility: hidden;}
+
+.stApp::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
+    background: repeating-linear-gradient(
+        0deg,
+        rgba(57,255,20,.018) 0px,
+        rgba(57,255,20,.018) 1px,
+        transparent 1px,
+        transparent 4px
+    );
+}
+.main .block-container, [data-testid="stSidebar"] {
+    position: relative;
+    z-index: 1;
+}
 </style>
 """, unsafe_allow_html=True)
 
@@ -877,9 +896,9 @@ def pump_svg(status="RUNNING"):
     <svg viewBox="0 0 520 260" width="100%" height="230">
         <defs>
           <linearGradient id="metal" x1="0" x2="1">
-            <stop offset="0%" stop-color="#172936"/>
-            <stop offset="50%" stop-color="#2b4657"/>
-            <stop offset="100%" stop-color="#10202b"/>
+            <stop offset="0%" stop-color="#172019"/>
+            <stop offset="50%" stop-color="#344936"/>
+            <stop offset="100%" stop-color="#101b12"/>
           </linearGradient>
           <filter id="glow">
             <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
@@ -891,41 +910,41 @@ def pump_svg(status="RUNNING"):
         </defs>
 
         <!-- base -->
-        <rect x="60" y="215" width="400" height="10" rx="5" fill="#12202a"/>
+        <rect x="60" y="215" width="400" height="10" rx="5" fill="#111b12"/>
 
         <!-- motor -->
         <rect x="300" y="75" width="135" height="90" rx="16"
-              fill="url(#metal)" stroke="#00d8ff" stroke-opacity=".55"/>
+              fill="url(#metal)" stroke="#39ff14" stroke-opacity=".55"/>
         <circle cx="335" cy="120" r="27" fill="none"
-                stroke="#00d8ff" stroke-opacity=".65" stroke-width="4"/>
+                stroke="#39ff14" stroke-opacity=".65" stroke-width="4"/>
         <path d="M335 100 L335 140 M315 120 L355 120"
-              stroke="#00d8ff" stroke-opacity=".6" stroke-width="3"/>
-        <text x="367" y="112" fill="#a7c7d7" font-size="13">MOTOR</text>
-        <text x="367" y="132" fill="#00e5a8" font-size="11">{status}</text>
+              stroke="#39ff14" stroke-opacity=".6" stroke-width="3"/>
+        <text x="367" y="112" fill="#a7bd9e" font-size="13">MOTOR</text>
+        <text x="367" y="132" fill="#6cff2e" font-size="11">{status}</text>
 
         <!-- coupling -->
         <rect x="260" y="103" width="40" height="35" rx="5"
-              fill="#253b49" stroke="#ffb020" stroke-opacity=".6"/>
+              fill="#293b2a" stroke="#b7ff4a" stroke-opacity=".6"/>
         <line x1="255" y1="120" x2="300" y2="120"
-              stroke="#ffb020" stroke-width="4"/>
+              stroke="#b7ff4a" stroke-width="4"/>
 
         <!-- pump casing -->
         <circle cx="150" cy="120" r="72" fill="url(#metal)"
-                stroke="#00d8ff" stroke-opacity=".65" stroke-width="3"/>
-        <circle cx="150" cy="120" r="35" fill="#071018"
-                stroke="#00d8ff" stroke-opacity=".45" stroke-width="3"/>
-        <circle cx="150" cy="120" r="11" fill="#00e5a8"
+                stroke="#39ff14" stroke-opacity=".65" stroke-width="3"/>
+        <circle cx="150" cy="120" r="35" fill="#050905"
+                stroke="#39ff14" stroke-opacity=".45" stroke-width="3"/>
+        <circle cx="150" cy="120" r="11" fill="#6cff2e"
                 filter="url(#glow)"/>
 
         <!-- suction / discharge -->
         <rect x="35" y="103" width="43" height="34" rx="6"
-              fill="#1c303e" stroke="#00d8ff" stroke-opacity=".5"/>
+              fill="#1c2a1d" stroke="#39ff14" stroke-opacity=".5"/>
         <rect x="186" y="42" width="34" height="48" rx="6"
-              fill="#1c303e" stroke="#00d8ff" stroke-opacity=".5"/>
+              fill="#1c2a1d" stroke="#39ff14" stroke-opacity=".5"/>
 
         <text x="112" y="211" fill="#8ca6b7" font-size="12">CENTRIFUGAL PUMP</text>
-        <text x="18" y="95" fill="#718b9e" font-size="9">SUCTION</text>
-        <text x="188" y="35" fill="#718b9e" font-size="9">DISCHARGE</text>
+        <text x="18" y="95" fill="#6f8169" font-size="9">SUCTION</text>
+        <text x="188" y="35" fill="#6f8169" font-size="9">DISCHARGE</text>
     </svg>
     <div class="twin-caption">DIGITAL TWIN // CENTRIFUGAL PUMP</div>
     </div>
@@ -1001,13 +1020,13 @@ st.sidebar.markdown("""
 <div style="font-family:Orbitron,sans-serif;font-size:21px;font-weight:700;">
 ⚙ PUMPGUARD AI
 </div>
-<div style="color:#718b9e;font-size:10px;letter-spacing:1px;margin-top:5px;">
-CONDITION MONITORING CORE
+<div style="color:#6f8169;font-size:10px;letter-spacing:1px;margin-top:5px;">
+DOOM-CORE // CONDITION MONITORING
 </div>
 </div>
 """, unsafe_allow_html=True)
 
-page = st.sidebar.radio(
+page = st.sidebar.selectbox(
     "SYSTEM NAVIGATION",
     [
         "Dashboard",
@@ -1016,8 +1035,18 @@ page = st.sidebar.radio(
         "Explainable AI",
         "Maintenance",
         "History"
-    ]
+    ],
+    key="navigation_page"
 )
+
+st.sidebar.markdown(
+    f'<div class="small-note" style="margin-top:8px;">CURRENT PAGE // <b>{page.upper()}</b></div>',
+    unsafe_allow_html=True
+)
+
+# Explicit page routing marker. This prevents stale page content from being
+# mistaken for the selected navigation page during Streamlit reruns.
+st.session_state["active_page"] = page
 
 st.sidebar.divider()
 st.sidebar.markdown("**DATA INPUT**")
@@ -1091,12 +1120,12 @@ st.sidebar.markdown(
 # ============================================================
 st.markdown("""
 <div class="topbar">
-  <div class="brand">⚙ PUMPGUARD AI <span style='font-size:10px;color:#00d8ff;'>V3 // MULTI-MODEL</span></div>
+  <div class="brand">⚙ PUMPGUARD AI <span style='font-size:10px;color:#39ff14;'>V3 // MULTI-MODEL</span></div>
   <div class="subtitle">
-    CENTRIFUGAL PUMP // DIGITAL TWIN // FAULT INTELLIGENCE // PREDICTIVE MAINTENANCE
+    CENTRIFUGAL PUMP // DOOM-CORE // FAULT INTELLIGENCE // PREDICTIVE MAINTENANCE
   </div>
   <div style="margin-top:10px;">
-    <span class="tag">AI CORE ONLINE</span>
+    <span class="tag">DOOM-CORE ONLINE</span>
     <span class="tag">10 ML MODELS</span>
     <span class="tag">ENSEMBLE READY</span>
     <span class="tag">XAI READY</span>
@@ -1114,7 +1143,7 @@ if st.session_state.data is None:
     st.markdown("""
     <div class="panel">
       <div class="panel-title">SYSTEM INITIALIZATION</div>
-      <div style="font-size:16px;color:#d8edf5;">
+      <div style="font-size:16px;color:#dcebd6;">
         Upload a labelled pump CSV or press <b>LOAD DEMO DATA</b>.
       </div>
       <div class="small-note" style="margin-top:10px;">
@@ -1134,6 +1163,12 @@ df = st.session_state.data.copy()
 # DASHBOARD
 # ============================================================
 if page == "Dashboard":
+
+    st.markdown(
+        '<div class="panel"><div class="panel-title">DASHBOARD // LIVE MACHINE OVERVIEW</div>'
+        '<div class="small-note">AI condition-monitoring overview for the selected pump dataset.</div></div>',
+        unsafe_allow_html=True
+    )
 
     feature_table, err = prepare_training_table(df, fs)
 
@@ -1212,7 +1247,7 @@ if page == "Dashboard":
                       <div class="health-label">/ 100</div>
                     </div>
                   </div>
-                  <div style="font-family:Orbitron,sans-serif;color:#bfeeff;">
+                  <div style="font-family:Orbitron,sans-serif;color:#d2ffbf;">
                     {status}
                   </div>
                 </div>
@@ -1225,7 +1260,7 @@ if page == "Dashboard":
                 f"""
                 <div class="fault-card">
                   <div class="panel-title">AI DIAGNOSTIC ENGINE</div>
-                  <div style="color:#7f96a7;font-size:11px;">PRIMARY PREDICTION</div>
+                  <div style="color:#72836c;font-size:11px;">PRIMARY PREDICTION</div>
                   <div class="fault-name">⚠ {pred}</div>
                   <div class="confidence">
                     MODEL: <b>{best_name.upper()}</b>
@@ -1330,7 +1365,8 @@ elif page == "Signal Analysis":
 
     if raw_col is None:
         st.info(
-            "This CSV contains extracted features rather than a raw vibration waveform."
+            "This CSV contains extracted features rather than a raw vibration waveform. "
+            "FFT can be performed here only when a raw vibration/signal column is available."
         )
         feature_table, err = prepare_training_table(df, fs)
 
@@ -1775,7 +1811,7 @@ elif page == "Maintenance":
             f"""
             <div class="core-row">
               <span class="core-name">STEP {i:02d}</span>
-              <span style="color:#cfe9f2;">{step}</span>
+              <span style="color:#d9ead0;">{step}</span>
             </div>
             """,
             unsafe_allow_html=True
@@ -1818,3 +1854,8 @@ elif page == "History":
             file_name="pump_diagnosis_history.csv",
             mime="text/csv"
         )
+
+
+# V3.1 routing safeguard:
+# Streamlit should always enter exactly one page block above.
+# If future edits introduce an invalid page value, show a clear recovery message.
